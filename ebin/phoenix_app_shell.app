@@ -1,0 +1,10 @@
+{application,phoenix_app_shell,
+             [{modules,['Elixir.PhoenixAppShell.Components',
+                        'Elixir.PhoenixAppShell.HostAdapter',
+                        'Elixir.PhoenixAppShell.Navigation',
+                        'Elixir.PhoenixAppShell.NavigationContributor']},
+              {optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger,phoenix_live_view]},
+              {description,"phoenix_app_shell"},
+              {registered,[]},
+              {vsn,"0.0.5"}]}.

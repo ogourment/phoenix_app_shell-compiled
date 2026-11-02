@@ -3,9 +3,9 @@ defmodule Mix.Tasks.Compile.BinaryPhoenixAppShell do
   @moduledoc false
   @root __DIR__
   @checksums %{
-    "assets/js/journey.mjs" => "2FBCF9E5BCCBB0610C064F35BF6BAFD3E042DE16E41E852BADBEA12EBC4C4D8A",
+    "assets/js/journey.mjs" => "D13BA51D99B072A546B4B44AF16F7B0A527E36207A0853A565A65E2BDF6BDBE0",
     "ebin/Elixir.PhoenixAppShell.Components.beam" =>
-      "28A00498E1A43B95355AA10B36AF9648515E681142C20968F1A94F115F964DF1",
+      "327A76AAC1E16F4381D3DEBF1B35549D670A37AB59A153ABD49B07C67565FBB6",
     "ebin/Elixir.PhoenixAppShell.HostAdapter.beam" =>
       "CB082EFA4E6582530A7607AE7853BC0A1FE48FF28B52C54087B83DE4DD2391D2",
     "ebin/Elixir.PhoenixAppShell.Navigation.beam" =>
@@ -13,7 +13,7 @@ defmodule Mix.Tasks.Compile.BinaryPhoenixAppShell do
     "ebin/Elixir.PhoenixAppShell.NavigationContributor.beam" =>
       "6A6B34CFA7B343841081392444B83EABAB41F44D0E9FE9F1781D693F263053C7",
     "ebin/phoenix_app_shell.app" =>
-      "DDF162C4C6BAB5717B4B9EC0F8C99BFAB33184D93A0F9B763551F1CC5AE1FCA0"
+      "EA5B064B67C66F0A5975CAD2F3F6DEBE79EFE30CDF4F7B334E64F8630A565E21"
   }
 
   @impl true
@@ -48,7 +48,7 @@ defmodule Compiled.PhoenixAppShell.MixProject do
   def project do
     [
       app: :phoenix_app_shell,
-      version: "0.0.5",
+      version: "0.0.6",
       elixir: "~> 1.20.0",
       compilers: [:binary_phoenix_app_shell],
       deps: [phoenix_live_view: "~> 1.2.0"]

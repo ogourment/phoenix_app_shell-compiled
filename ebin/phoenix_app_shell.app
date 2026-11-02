@@ -7,4 +7,4 @@
               {applications,[kernel,stdlib,elixir,logger,phoenix_live_view]},
               {description,"phoenix_app_shell"},
               {registered,[]},
-              {vsn,"0.0.5"}]}.
+              {vsn,"0.0.6"}]}.

@@ -1,10 +1,13 @@
 {application,phoenix_app_shell,
-             [{modules,['Elixir.PhoenixAppShell.Components',
+             [{modules,['Elixir.PhoenixAppShell.Collection',
+                        'Elixir.PhoenixAppShell.Components',
+                        'Elixir.PhoenixAppShell.Connection',
                         'Elixir.PhoenixAppShell.HostAdapter',
                         'Elixir.PhoenixAppShell.Navigation',
-                        'Elixir.PhoenixAppShell.NavigationContributor']},
+                        'Elixir.PhoenixAppShell.NavigationContributor',
+                        'Elixir.PhoenixAppShell.Selection']},
               {optional_applications,[]},
               {applications,[kernel,stdlib,elixir,logger,phoenix_live_view]},
               {description,"phoenix_app_shell"},
               {registered,[]},
-              {vsn,"0.0.6"}]}.
+              {vsn,"0.1.0"}]}.
